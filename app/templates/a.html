@@ -11,6 +11,7 @@
 
 	<script src="{% static '/vendors/jquery/jquery-3.3.1.min.js' %}"></script>
 	<script src="{% static '/vendors/jquery-ui/jquery-ui.min.js' %}"></script>
+  <script src="{% static '/script/main.js' %}"></script>
 
 </head>
 
@@ -21,7 +22,7 @@
 				<h3>Task 1a</h3>
 			</div>
 			<div class="col-6">
-				<button class="btn btn-light float-right">
+				<button class="btn btn-light float-right reset">
 					Reset
 				</button>
 			</div>
@@ -54,7 +55,10 @@
 					<div class="p2-circle bg-blue p2-border"></div>
 					<div class="p2-circle bg-blue p2-border"></div>
 					<div class="p2-circle bg-blue"></div>
-					<div class="p2-circle" id="gradient-circle"></div>
+          <div class="gradient">
+            <div class="p2-circle" id="gradient-circle"></div>
+          </dic>
+					
 				</div>
 			</div>
 		</div>
